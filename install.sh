@@ -21,9 +21,6 @@ if ! pacman -Q yay &> /dev/null; then
     makepkg -si
 fi
 
-
-mkdir -p $HOME/{Download,Documents,Pictures,Music,Templates,Videos}
-
 #Install yay helper
 if ! pacman -Q yay &> /dev/null; then
     git clone "$yay_repo"
