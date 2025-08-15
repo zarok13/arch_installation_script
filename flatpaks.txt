@@ -1,0 +1,12 @@
+com.spotify.Client
+com.github.unrud.VideoDownloader
+io.github.sxyazi.yazi
+md.obsidian.Obsidian
+org.audacityteam.Audacity
+org.gaphor.Gaphor
+org.gimp.GIMP
+org.keepassxc.KeePassXC
+org.mozilla.Thunderbird
+org.mozilla.firefox
+org.telegram.desktop
+org.videolan.VLC

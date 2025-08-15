@@ -1,0 +1,4 @@
+brave-bin
+google-chrome
+sublime-text
+ttf-ms-fonts
