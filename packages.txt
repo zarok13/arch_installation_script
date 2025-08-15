@@ -11,6 +11,7 @@ docker-compose
 docker-buildx
 feh
 fish
+starship
 flameshot
 flatpak
 ttf-fira-code
