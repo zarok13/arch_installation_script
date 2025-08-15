@@ -21,13 +21,6 @@ if ! pacman -Q yay &> /dev/null; then
     makepkg -si
 fi
 
-#Install yay helper
-if ! pacman -Q yay &> /dev/null; then
-    git clone "$yay_repo"
-    cd yay
-    makepkg -si
-fi
-
 #add flatpak repository
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
