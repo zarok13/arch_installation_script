@@ -61,3 +61,4 @@ xfce4-settings
 zip
 zsh
 ufw
+apparmor
