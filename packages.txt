@@ -59,6 +59,8 @@ xorg-xbacklight
 xfce4-power-manager
 xfce4-settings
 zip
+thunderbird
+yazi
 zsh
 ufw
 apparmor

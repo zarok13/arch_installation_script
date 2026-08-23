@@ -9,8 +9,6 @@ config="$HOME/.config"
 dotfiles="https://github.com/zarok13/dotfiles.git"
 flatpaks="./flatpaks.txt"
 packages="./packages.txt"
-aur_packages="./aur_packages.txt"
-yay_repo="https://aur.archlinux.org/yay.git"
 
 mkdir -p $HOME/{Download,Documents,Pictures,Music,Templates,Videos}
 
@@ -26,9 +24,6 @@ flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.f
 
 #Pacman
 sudo pacman -S --noconfirm --needed $(< "$packages")
-
-#Aur
-yay -S $(< "$aur_packages")
 
 #Flatpak
 sudo flatpak install -y $(< "$flatpaks")
